@@ -28,7 +28,8 @@ public class MainActivity extends AppCompatActivity {
         Scorpian scorpian= new Scorpian('scory');
 
         ArrayList<Pet_Java> petList= new ArrayList<>();
-        petList
+        petList.add(Cat);
+        
 
     }
 }
