@@ -2,19 +2,20 @@ package com.example.petshop;
 
 import java.util.Date;
 
-public abstract class Pet_Java {
-            private String name;
-            private Date birthdate;
+public abstract class Pet_Java { // I named my Pet as Pet_Java instead
 
-            public Pet_Java(String name){
-                this.name = name;
-                this.birthdate = new Date();
-            }
+    private String name;
+    private Date birthdate;
 
-            public Pet_Java(String name, Date birthdate){
-                this.name=name;
-                this.birthdate= birthdate;
-            }
+    public Pet_Java(String name) {
+        this.name = name;
+        this.birthdate = new Date();
+    }
+
+    public Pet_Java(String name, Date birthdate) {
+        this.name = name;
+        this.birthdate = birthdate;
+    }
 
     public String getName() {
         return name;

@@ -2,7 +2,7 @@ package com.example.petshop;
 
 import java.util.Date;
 
-public class Dog extends Pet_Java {
+public class Dog extends Pet_Java implements Pettable {
 
     public Dog(String name){
 
@@ -18,5 +18,7 @@ public class Dog extends Pet_Java {
     @Override
     public String speak() {
         return "Bark";
+    }
+    public void pet() {
     }
 }
